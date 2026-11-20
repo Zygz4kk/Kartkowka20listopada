@@ -57,6 +57,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         ktoreZdjecie--;
+                        if (ktoreZdjecie < imageViewsArray.size()){
+                            ktoreZdjecie = 3;
+                        }
                         pokazZdj(ktoreZdjecie);
                     }
                 }
