@@ -11,12 +11,15 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="250dp"
         app:srcCompat="@drawable/burza" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/Tekst"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="199dp"
+        android:textSize="25dp"
         android:text="0" />
 
     <Button
